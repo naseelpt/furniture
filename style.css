@@ -1,0 +1,174 @@
+*{
+    font-family:"playfair display",serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --x :rgb(84, 9, 9);
+}
+#logo{
+    width: 100px;
+    height: 130px;
+}
+ul li{
+    font-size: 15px;
+   
+}
+li i{
+    color: grey;
+}
+#buttn{
+    background-color: var(--x);
+    color: aliceblue;
+}
+#buttn:hover{
+    background-color: aliceblue;
+    color: var(--x);
+    border-color: var(--x);
+
+}
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+/* nav bar closed */
+
+#main{
+    background-image: url(./media/furniture.1.jpg);
+    height: 900px;
+    background-attachment: fixed;
+}
+#b1{
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.451);
+}
+#Welcome{
+    padding-top: 20%;
+    padding-left: 5%;
+}
+#Welcome h4{
+    color: blue;
+    font-size: 30px;
+}
+#Welcome h1{
+    color: aqua;
+    font-size: 80px;
+
+}
+#work{
+    background-image:url(./bag.jpg) ;
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div .viewbtn{
+    border-color: var(--x);
+    color: var(--x);
+}
+div .viewbtn:hover{
+    background-color: var(--x);
+    color: aliceblue;
+}
+#about{
+    background-color: gainsboro;
+    padding-top: 10%;
+    height: 700px;
+
+}
+#hr{
+    border: 4px solid red;
+    width: 10rem;
+    margin-top: 5%;
+}
+#about h2{
+    color: var(--x);
+}
+#about p{
+    text-align: justify;
+    margin-top: 6%;
+}
+#about h3{
+    margin-top: 5%;
+}
+#abbr{
+    border: 7px solid red;
+    width: 90% ;
+    height: 490px;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+.prjtGDiv1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.prjtGDiv1 img{
+    position: absolute;
+    height: 100%;
+
+}
+.prjtGDiv2{
+    width: 55%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+
+
+
+}
+.prjtGDiv3{
+    width: 70%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    position: absolute;
+
+
+
+
+
+}
+/* closed */
+.divimage1{
+    width: 70%;
+    height: 25%;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    bottom: 0px;
+    position: absolute;
+}.divimage{
+    width: 70%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
